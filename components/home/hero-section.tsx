@@ -169,7 +169,7 @@ export default function HeroSection() {
                                     })}
                                     className="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row">
                                         
-                                        <Image src="/fb.png" alt="fb" width='360' height='0' className='rounded-2xl drop-shadow-md hover:drop-shadow-2xl overflow-visible duration-500 '/>
+                                        <Image src="./fb5.png" alt="fb" width='360' height='0' className='rounded-2xl drop-shadow-md hover:drop-shadow-2xl overflow-visible duration-500 '/>
                             </AnimatedGroup>
                             </div>
                         </div>

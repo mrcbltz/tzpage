@@ -27,7 +27,7 @@ export default function FooterSection() {
                     href="/"
                     aria-label="go home"
                     className="mx-auto block size-fit">
-                    <Image          src="/logo_h2.png" 
+                    <Image          src="./logo_h2.png" 
                                     alt="logo strony"
                                     width={120}
                                     height={0}                
