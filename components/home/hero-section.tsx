@@ -42,7 +42,7 @@ const transitionVariants2 = {
             transition: {
                 type: 'scale',
                 bounce: 0.3,
-                duration: 2.5,
+                duration: 3,
             },
         },
     },
@@ -161,7 +161,7 @@ export default function HeroSection() {
                                             visible: {
                                                 transition: {
                                                     staggerChildren: 0.05,
-                                                    delayChildren: 1.25,
+                                                    delayChildren: 1.5,
                                                 },
                                             },
                                         },
