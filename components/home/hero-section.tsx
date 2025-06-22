@@ -171,7 +171,7 @@ export default function HeroSection() {
                                     className="mt-12 gap-2">
                                         
                                         <Image 
-                                            src="/fb5.png" 
+                                            src="./fb5.png" 
                                             alt="fb" 
                                             width='380' 
                                             height='0' 
