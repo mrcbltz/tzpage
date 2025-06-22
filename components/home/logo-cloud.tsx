@@ -8,7 +8,7 @@ export default function LogoCloud() {
             <div className="group relative m-auto max-w-7xl px-6">
                 <div className="flex flex-col items-center justify-center md:flex-row">
                     <div className=" text-primary-foreground md:max-w-44 md:border-r md:border-primary-foreground/35 md:pr-6 mb-0 sm:mb-20 md:mb-0">
-                        <p className="text-end text-primary-foreground font-bold ">Edukacja</p>
+                        <p className="text-end text-primary-foreground font-bold ">EDUKACJA</p>
                     </div>
                     <div className="relative py-6 md:w-[calc(100%-11rem)]">
                         <InfiniteSlider
