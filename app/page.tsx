@@ -10,7 +10,7 @@ import LogoCloud from "@/components/home/logo-cloud";
 export default function Home() {
   return (
     <div> 
-      <h1>elo</h1>
+      
       <HeroSection />
       <LogoCloud />
       <ContentSection />
