@@ -1,0 +1,68 @@
+'use client'
+
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
+import Link from 'next/link'
+
+export default function FAQsFour() {
+    const faqItems = [
+        {
+            id: 'item-1',
+            question: 'Jak wygląda pierwsze spotkanie?',
+            answer: 'Pierwsze spotkanie to konsultacja, podczas której poznajemy się, omawiamy Twoje potrzeby i ustalamy możliwe formy dalszej pomocy.',
+        },
+        {
+            id: 'item-2',
+            question: 'Czy muszę mieć skierowanie?',
+            answer: 'Nie, na wizytę nie jest wymagane skierowanie. Możesz umówić się bezpośrednio.',
+        },
+        {
+            id: 'item-3',
+            question: 'Jak często odbywają się spotkania?',
+            answer: 'Częstotliwość spotkań ustalana jest indywidualnie – zazwyczaj raz w tygodniu.',
+        },
+        {
+            id: 'item-4',
+            question: 'Jak długo trwa jedna sesja?',
+            answer: "Sesja trwa zwykle 50 minut, ale w przypadku niektórych form pracy czas ten może być nieco inny (np. sesje par – 75 min).",
+        },
+        {
+            id: 'item-5',
+            question: 'Czy oferujesz spotkania online?',
+            answer: 'Tak, istnieje możliwość konsultacji online – przez wideo lub telefonicznie, w zależności od preferencji.',
+        },
+    ]
+
+    return (
+        <section className="py-6 md:py-5 bg-primary-foreground text-primary selection:bg-primary selection:text-primary-foreground ">
+            <div className="mx-auto max-w-5xl my-12 py-24 px-4 md:px-6">
+                <div className="mx-auto max-w-xl text-center">
+                    <h2 className="text-balance text-3xl font-bold md:text-4xl lg:text-5xl">Często zadawane pytania</h2>
+                    <p className="mt-4 text-balance">Odkryj  odpowiedzi na najczęstsze pytania dotyczące mojej pracy.</p>
+                </div>
+
+                <div className="mx-auto mt-12 max-w-xl">
+                    <Accordion
+                        type="single"
+                        collapsible
+                        className="bg-primary w-full rounded-2xl p-1">
+                        {faqItems.map((item) => (
+                            <div
+                                className="group"
+                                key={item.id}>
+                                <AccordionItem
+                                    value={item.id}
+                                    className="data-[state=open]:bg-card dark:data-[state=open]:bg-muted peer rounded-xl border-none px-7 py-1 data-[state=open]:border-none data-[state=open]:shadow-sm">
+                                    <AccordionTrigger className="font-semibold cursor-pointer text-base text-primary-foreground selection:bg-primary-foreground selection:text-secondary hover:no-underline">{item.question}</AccordionTrigger>
+                                    <AccordionContent>
+                                        <p className="text-primary-foreground selection:bg-primary-foreground selection:text-secondary">{item.answer}</p>
+                                    </AccordionContent>
+                                </AccordionItem>
+                                <hr className="mx-7 border-dashed group-last:hidden peer-data-[state=open]:opacity-0" />
+                            </div>
+                        ))}
+                    </Accordion>
+                </div>
+            </div>
+        </section>
+    )
+}
