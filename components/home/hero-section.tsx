@@ -160,7 +160,7 @@ export default function HeroSection() {
                                         container: {
                                             visible: {
                                                 transition: {
-                                                    staggerChildren: 0.05,
+                                                    staggerChildren: 0.05, 
                                                     delayChildren: 1.5,
                                                     
                                                 },

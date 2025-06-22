@@ -40,7 +40,7 @@ export const HeroHeader = () => {
                                     alt="logo strony"
                                     width={120}
                                     height={0}
-                                    
+                                     
                                     
                                     priority 
                                />
