@@ -1,5 +1,6 @@
 import { InfiniteSlider } from '@/components/ui/infinite-slider'
 import { ProgressiveBlur } from '@/components/ui/progressive-blur'
+import Image from 'next/image'
 
 export default function LogoCloud() {
     return (
@@ -16,58 +17,58 @@ export default function LogoCloud() {
                             gap={112}
                             >
                             <div className="flex">
-                                <img
+                                <Image
                                     className="mx-auto h-6 dark:invert"
                                     src="/logos/apa.png"
                                     alt="Nvidia Logo"
                                     height="20"
-                                    width="auto"
+                                    width="299"
                                 />
                             </div>
 
                             <div className="flex items-center justify-center mx-auto">
-                                <img
+                                <Image
                                     className="mx-auto h-6 dark:invert"
                                     src="/logos/va.png"
                                     alt="va logo"
                                     height="24"
-                                    width="auto"
+                                    width="90"
                                 />
                             </div>
                             <div className="flex">
-                                <img
+                                <Image
                                     className="mx-auto h-6 dark:invert"
                                     src="/logos/bsp.png"
                                     alt="bsp logo"
-                                    height="16"
-                                    width="auto"
+                                    height="20"
+                                    width="122"
                                 />
                             </div>
                             <div className="flex">
-                                <img
+                                <Image
                                     className="mx-auto h-6 dark:invert"
                                     src="/logos/tsr.png"
                                     alt="Tsr Logo"
-                                    height="24"
-                                    width="auto"
+                                    height="20"
+                                    width="37"
                                 />
                             </div>
                             <div className="flex">
-                                <img
+                                <Image
                                     className="mx-auto h-6 dark:invert"
                                     src="/logos/ul.png"
                                     alt="ul log"
                                     height="20"
-                                    width="auto"
+                                    width="59"
                                 />
                             </div>
                             <div className="flex">
-                                <img
+                                <Image
                                     className="mx-auto h-6 dark:invert"
                                     src="/logos/wsb.png"
                                     alt="Laravel Logo"
-                                    height="16"
-                                    width="auto"
+                                    height="20"
+                                    width="36"
                                 />
                             </div>
                            
