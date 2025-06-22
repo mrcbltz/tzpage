@@ -65,7 +65,7 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/wsb.png"
+                                    src="./logos/wsb.png" 
                                     alt="Laravel Logo"
                                     height="20"
                                     width="46"
