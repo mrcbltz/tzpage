@@ -2,21 +2,21 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-const links = [
-    {
-        title: 'O mnie',
-        href: '/about',
-    },
-    {
-        title: 'Kontakt',
-        href: '/kontakt',
-    },
-    {
-        title: 'Umów się na wizytę',
-        href: '#',
-    },
+// const links = [
+//     {
+//         title: 'O mnie',
+//         href: '/about',
+//     },
+//     {
+//         title: 'Kontakt',
+//         href: '/kontakt',
+//     },
+//     {
+//         title: 'Umów się na wizytę',
+//         href: '#',
+//     },
     
-]
+// ]
 
 export default function FooterSection() {
     return (
@@ -76,17 +76,7 @@ export default function FooterSection() {
                     
                 </div>
 
-                {/* menu */}
-                {/* <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
-                    {links.map((link, index) => (
-                        <Link
-                            key={index}
-                            href={link.href}
-                            className="text-muted-foreground hover:text-primary block duration-150">
-                            <span>{link.title}</span>
-                        </Link>
-                    ))}
-                </div> */}
+               
                 <span className="block text-center text-sm"> © {new Date().getFullYear()} Taktyka Życia, All rights reserved</span>
             </div>
         </footer>
