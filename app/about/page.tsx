@@ -4,7 +4,7 @@ export default async function page() {
     await new Promise ((resolve) => {
         setTimeout(()=> {
             resolve("intention delay");
-        }, 500)
+        }, 1000)
     });
   return (
         <div className="min-h-screen flex items-center justify-center bg-primary text-primary-foreground selection:bg-primary-foreground selection:text-primary">
