@@ -4,11 +4,11 @@ import Image from 'next/image'
 
 export default function LogoCloud() {
     return (
-        <section className="bg-primary  overflow-hidden py-36">
+        <section className="bg-primary  overflow-hidden py-16">
             <div className="group relative m-auto max-w-7xl px-6">
                 <div className="flex flex-col items-center justify-center md:flex-row">
-                    <div className="md:max-w-44 md:border-r md:pr-6">
-                        {/* <p className="text-end text-sm">Powering the best teams</p> */}
+                    <div className=" text-primary-foreground md:max-w-44 md:border-r md:border-primary-foreground/35 md:pr-6 mb-0 sm:mb-20 md:mb-0">
+                        <p className="text-end text-primary-foreground font-bold ">Edukacja</p>
                     </div>
                     <div className="relative py-6 md:w-[calc(100%-11rem)]">
                         <InfiniteSlider
@@ -19,35 +19,35 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/apa.png"
+                                    src="/logos/apa.png"
                                     alt="Nvidia Logo"
                                     height="20"
-                                    width="299"
+                                    width="349"
                                 />
                             </div>
 
-                            <div className="flex items-center justify-center mx-auto">
+                            <div className="flex w-fit mx-auto">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/va.png"
+                                    src="/logos/va.png"
                                     alt="va logo"
                                     height="24"
-                                    width="90"
+                                    width="110"
                                 />
                             </div>
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/bsp.png"
+                                    src="/logos/bsp.png"
                                     alt="bsp logo"
                                     height="20"
-                                    width="122"
+                                    width="142"
                                 />
                             </div>
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/tsr.png"
+                                    src="/logos/tsr.png"
                                     alt="Tsr Logo"
                                     height="20"
                                     width="37"
@@ -56,19 +56,19 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/ul.png"
+                                    src="/logos/ul.png"
                                     alt="ul log"
                                     height="20"
-                                    width="59"
+                                    width="79"
                                 />
                             </div>
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/wsb.png"
+                                    src="/logos/wsb.png"
                                     alt="Laravel Logo"
                                     height="20"
-                                    width="36"
+                                    width="46"
                                 />
                             </div>
                            

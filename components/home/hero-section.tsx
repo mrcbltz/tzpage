@@ -42,7 +42,7 @@ const transitionVariants2 = {
             transition: {
                 type: 'scale',
                 bounce: 0.3,
-                duration: 3,
+                duration: 10,
             },
         },
     },
@@ -91,7 +91,7 @@ export default function HeroSection() {
                             className="absolute inset-0 -z-20">
                             <Image
                                 // src="https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg?updatedAt=1745733451120"
-                                src="./bg.jpg"
+                                src="/bg.jpg"
                                 alt="background"
                                 className="absolute inset-x-0 top-56 -z-20 hidden lg:top-32 dark:block"
                                 width="3276"
@@ -101,7 +101,7 @@ export default function HeroSection() {
 
                         {/* po co ten div ? */}
                         <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]  bg-green-200"></div>
-                        <div className="mx-auto max-w-7xl px-6 grid sm:flex">
+                        <div className="mx-auto w-full flex flex-col justify-center items-center lg:flex-row ">
                             {/* tekst */}
                             <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
 
@@ -154,7 +154,7 @@ export default function HeroSection() {
                                 </AnimatedGroup>
                             </div>
                             {/* zdjecie */}
-                            <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
+                            <div className="flex justify-center text-center sm:mx-auto lg:mr-auto mt-12 lg:mt-0">
                             <AnimatedGroup
                                     variants={Object.assign({
                                         container: {
@@ -162,14 +162,21 @@ export default function HeroSection() {
                                                 transition: {
                                                     staggerChildren: 0.05,
                                                     delayChildren: 1.5,
+                                                    
                                                 },
                                             },
                                         },
                                         transitionVariants2,
                                     })}
-                                    className="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row">
+                                    className="mt-12 gap-2">
                                         
-                                        <Image src="./fb5.png" alt="fb" width='360' height='0' className='rounded-2xl drop-shadow-md hover:drop-shadow-2xl overflow-visible duration-500 '/>
+                                        <Image 
+                                            src="/fb5.png" 
+                                            alt="fb" 
+                                            width='380' 
+                                            height='0' 
+                                            className='drop-shadow-md hover:drop-shadow-2xl overflow-visible duration-500 mx-auto lg:mr-25'
+                                            />
                             </AnimatedGroup>
                             </div>
                         </div>
