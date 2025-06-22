@@ -15,7 +15,7 @@ export default function LogoCloud() {
                             speedOnHover={20}
                             speed={40}
                             gap={112}
-                            >
+                            > 
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
