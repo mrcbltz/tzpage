@@ -36,7 +36,7 @@ export const HeroHeader = () => {
                                 className="flex items-center space-x-2">
                                 {/* <Logo /> */} 
                                <Image 
-                                    src="./logo_z1.png" 
+                                    src="./logo_f1.png" 
                                     alt="logo strony"
                                     width={120}
                                     height={0}
