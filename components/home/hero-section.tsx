@@ -22,7 +22,7 @@ const transitionVariants = {
             transition: {
                 type: 'spring',
                 bounce: 0.3,
-                duration: 1.5,
+                duration: 0.5,
             },
         },
     },
@@ -42,7 +42,7 @@ const transitionVariants2 = {
             transition: {
                 type: 'scale',
                 bounce: 0.3,
-                duration: 10,
+                duration: 0.5,
             },
         },
     },
@@ -103,7 +103,7 @@ export default function HeroSection() {
                         <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]  bg-green-200"></div>
                         <div className="mx-auto w-full flex flex-col justify-center items-center gap-y-12 lg:flex-row lg:gap-x-20 ">
                             {/* tekst */}
-                            <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
+                            <div className="order-2 text-center sm:mx-auto lg:mr-auto lg:mt-0">
 
                                 <TextEffect
                                     preset="fade-in-blur"
@@ -128,7 +128,7 @@ export default function HeroSection() {
                                             visible: {
                                                 transition: {
                                                     staggerChildren: 0.05,
-                                                    delayChildren: 0.75,
+                                                    delayChildren: 0.5,
                                                     
                                                 },
                                             },
@@ -154,7 +154,7 @@ export default function HeroSection() {
                                 </AnimatedGroup>
                             </div>
                             {/* zdjecie */}
-                            <div className="flex justify-center text-center sm:mx-auto lg:mr-auto mt-12 lg:mt-0">
+                            <div className="order-1 flex justify-center text-center sm:mx-auto lg:mr-auto mt-12 lg:mt-0">
                             <AnimatedGroup
                                     variants={Object.assign({
                                         container: {
