@@ -52,7 +52,7 @@ export default function HeroSection() {
     return (
         <>
             {/* <HeroHeader /> */}
-            <main className="overflow-hidden bg-primary-skin">
+            <main className="overflow-hidden">
                 <div
                     aria-hidden
                     className="absolute inset-0 isolate hidden contain-strict lg:block bg-primary">
@@ -60,10 +60,10 @@ export default function HeroSection() {
                     <div className="h-320 absolute left-0 top-0 w-60 -rotate-45 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.06)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)] [translate:5%_-50%]" />
                     <div className="h-320 -translate-y-87.5 absolute left-0 top-0 w-60 -rotate-45 bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.04)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)]" />
                 </div>
-                <section>
+                <section className='bg-primary text-primary-foreground selection:bg-primary-foreground selection:text-primary'>
                     {/* <div className="relative pt-24 md:pt-36"> */}
-                    <div className="relative mt-10 p-24 md:p-36">
-                        <AnimatedGroup
+                    <div className="relative mt-10 p-24 md:p-36 gap-10">
+                        {/* <AnimatedGroup
                             variants={{
                                 container: {
                                     visible: {
@@ -97,11 +97,11 @@ export default function HeroSection() {
                                 width="3276"
                                 height="4095"
                             />
-                        </AnimatedGroup>
+                        </AnimatedGroup> */}
 
                         {/* po co ten div ? */}
                         <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]  bg-green-200"></div>
-                        <div className="mx-auto w-full flex flex-col justify-center items-center lg:flex-row ">
+                        <div className="mx-auto w-full flex flex-col justify-center items-center gap-y-12 lg:flex-row lg:gap-x-20 ">
                             {/* tekst */}
                             <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
 
@@ -109,7 +109,7 @@ export default function HeroSection() {
                                     preset="fade-in-blur"
                                     speedSegment={0.3}
                                     as="h1"
-                                    className="mt-8 text-balance text-6xl md:text-7xl lg:mt-16 xl:text-[5.25rem]">
+                                    className="font-sans mt-8 text-balance font-semibold text-6xl md:text-7xl lg:mt-16 xl:text-[5.25rem]">
                                     Taktyka życia
                                 </TextEffect>
                                 <TextEffect
@@ -171,7 +171,7 @@ export default function HeroSection() {
                                     className="mt-12 gap-2"> 
                                         
                                         <Image 
-                                            src="./fb5.png" 
+                                            src="/fb5.png" 
                                             alt="fb" 
                                             width='380' 
                                             height='0' 

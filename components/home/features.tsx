@@ -8,11 +8,14 @@ export default function Features() {
         <section className="py-6 md:py-32 bg-primary text-primary-foreground dark:bg-transparent">
             <div className="@container my-24 mx-auto max-w-5xl px-6 ">
     
-                <div className="snap-x @min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto grid max-w-sm gap-6 *:text-center ">
+                {/* <div className="snap-x @min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto grid max-w-sm gap-6 *:text-center "> */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch *:text-center">
 
 
                    <AnimatedSection>
-                    <Card className="snap-center group shadow-zinc-950/5 bg-primary ">
+                    {/* <Card className="snap-center group shadow-zinc-950/5 bg-primary "> */}
+                    <Card className="h-full group shadow-zinc-950/5 bg-primary text-primary-foreground ">
+                    
                         <CardHeader className="pb-3">
                             <CardDecorator>
                                 <Zap
@@ -30,7 +33,7 @@ export default function Features() {
                     </Card>
                     </AnimatedSection>
                     <AnimatedSection>
-                    <Card className="group shadow-zinc-950/5 bg-primary text-primary-foreground">
+                    <Card className="h-full group shadow-zinc-950/5 bg-primary text-primary-foreground">
                         <CardHeader className="pb-3">
                             <CardDecorator>
                                 <Settings2
@@ -49,7 +52,7 @@ export default function Features() {
                     </AnimatedSection>
 
                     <AnimatedSection>
-                    <Card className="group shadow-zinc-950/5 bg-primary text-primary-foreground">
+                    <Card className="h-full group shadow-zinc-950/5 bg-primary text-primary-foreground">
                         <CardHeader className="pb-3">
                             <CardDecorator>
                                 <Sparkles
