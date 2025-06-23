@@ -168,7 +168,7 @@ export default function HeroSection() {
                                         },
                                         transitionVariants2,
                                     })}
-                                    className="mt-12 gap-2"> 
+                                    className="mt-4 md:mt-2 lg:mt-0 gap-2"> 
                                         
                                         <Image 
                                             src="./fb5.png" 
