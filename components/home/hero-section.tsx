@@ -103,7 +103,7 @@ export default function HeroSection() {
                         <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]  bg-green-200"></div>
                         <div className="mx-auto w-full flex flex-col justify-center items-center gap-y-12 lg:flex-row lg:gap-x-20 ">
                             {/* tekst */}
-                            <div className="sm:order-2 text-center sm:mx-auto lg:mr-auto lg:mt-0">
+                            <div className="order-2 lg:order-1 text-center sm:mx-auto lg:mr-auto lg:mt-0">
 
                                 <TextEffect
                                     preset="fade-in-blur"
@@ -154,7 +154,7 @@ export default function HeroSection() {
                                 </AnimatedGroup>
                             </div>
                             {/* zdjecie */}
-                            <div className="sm:order-1 flex justify-center text-center sm:mx-auto lg:mr-auto mt-12 lg:mt-0">
+                            <div className="order-1 lg:order-2 flex justify-center text-center sm:mx-auto lg:mr-auto mt-12 lg:mt-0">
                             <AnimatedGroup
                                     variants={Object.assign({
                                         container: {
