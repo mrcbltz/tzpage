@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function LogoCloud() {
     return (
         <section className="bg-[linear-gradient(to_top,white_20%,white_80%,#f0fdf4_100%)] overflow-hidden py-16 relative w-full">
-            <div className="group m-auto max-w-7xl px-6 ">
+            <div className="group m-auto max-w-7xl px-6 sm:pt-10 ">
                 <div className="flex flex-col items-center justify-center md:flex-row">
                     <div className=" text-primary-foreground md:max-w-44 md:border-r md:border-primary-foreground/35 md:pr-6 mb-0 sm:mb-20 md:mb-0">
                         <p className="text-end text-primary-foreground font-bold ">EDUKACJA</p>
