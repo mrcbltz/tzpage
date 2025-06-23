@@ -154,7 +154,7 @@ export default function HeroSection() {
                                 </AnimatedGroup>
                             </div>
                             {/* zdjecie */}
-                            <div className="order-1 lg:order-2 flex justify-center text-center sm:mx-auto lg:mr-auto mt-12 lg:mt-0">
+                            <div className="order-1 lg:order-2 flex justify-center text-center sm:mx-auto lg:mr-auto lg:mt-0">
                             <AnimatedGroup
                                     variants={Object.assign({
                                         container: {
