@@ -2,144 +2,70 @@ import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import { Sparkles } from 'lucide-react'
 import { ReactNode } from 'react'
 import AnimatedSection from '../motion-primitives/_AnimatedSection'
-import { IoAccessibilityOutline } from 'react-icons/io5';
-import { LuBlend, LuHandshake } from 'react-icons/lu';
-import { GiBrain, GiSpellBook } from 'react-icons/gi';
+import { IoAccessibilityOutline } from 'react-icons/io5'
+import { LuBlend, LuHandshake } from 'react-icons/lu'
+import { GiBrain, GiSpellBook } from 'react-icons/gi'
 
-export default function Features() {
-    return (
-        <section className="relative py-6 md:py-32 bg-primary text-primary-foreground dark:bg-transparent">
-            <div className="@container my-24 mx-auto max-w-5xl px-6 ">
-    
-                {/* <div className="snap-x @min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto grid max-w-sm gap-6 *:text-center "> */}
-                {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch *:text-center"> */}
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
+const features = [
+  {
+    icon: <IoAccessibilityOutline className="size-12" />,
+    title: 'Indywidualne podejście',
+    text: 'Każdy z nas jest inny i ma własną, niepowtarzalną historię – dlatego dostosowuję metody pracy do potrzeb i sytuacji życiowej...',
+  },
+  {
+    icon: <LuHandshake className="size-12" />,
+    title: 'Poufność',
+    text: 'Twoje zaufanie to dla mnie priorytet, dlatego poważnie traktuję kodeks etyczny psychologa...',
+  },
+  {
+    icon: <Sparkles className="size-12" />,
+    title: 'Profesjonalizm i empatia',
+    text: 'Dbam o rzetelne przygotowanie do pracy biorąc udział w szkoleniach i superwizji.',
+  },
+  {
+    icon: <GiSpellBook className="size-12" />,
+    title: 'Podejście oparte na nauce',
+    text: 'Opieram się na wiedzy psychologicznej i neurobiologicznej, zgodnej z aktualnymi ustaleniami nauki.',
+  },
+  {
+    icon: <LuBlend className="size-12" />,
+    title: 'Integracja metod pracy',
+    text: 'Łączę dialog, pracę z ciałem i świadomość zasobów z wiedzą o układzie nerwowym.',
+  },
+  {
+    icon: <GiBrain className="size-12" />,
+    title: 'Diagnoza',
+    text: 'Oferuję diagnozy psychologiczne, neuropsychologiczne oraz przygotowanie opinii.',
+  },
+]
 
-
-                   <AnimatedSection>
-                    {/* <Card className="snap-center group shadow-zinc-950/5 bg-primary "> */}
-                    <Card className="w-full h-full max-w-sm shadow-md bg-primary text-primary-foreground ">
-                    
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-
-                                <IoAccessibilityOutline 
-                                    className="size-12 bg-primary text-primary-foreground"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
-
-                            <h3 className="mt-6 font-semibold text-xl text-primary-foreground selection:bg-primary-foreground selection:text-primary">Indywidualne podejście</h3>
-                        </CardHeader>
-
-                        <CardContent className="p-4">
-                            <p className="mt-3 text-sm text-primary-foreground selection:bg-primary-foreground selection:text-primary">Każdy z nas jest inny i ma własną, niepowtarzalną historię – dlatego dostosowuję metody pracy do potrzeb i sytuacji życiowej, uwzględniając fakt, że wsparcie ma być skuteczne w możliwie jak najkrótszym czasie.</p>
-                        </CardContent>
-                    </Card>
-                    </AnimatedSection>
-
-                    <AnimatedSection>
-                    <Card className="w-full h-full max-w-sm shadow-md bg-primary text-primary-foreground">
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-                                <LuHandshake
-                                    className="size-12 bg-primary text-primary-foreground"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
-
-                            <h3 className="mt-6 font-semibold text-xl text-primary-foreground selection:bg-primary-foreground selection:text-primary">Poufność</h3>
-                        </CardHeader>
-
-                        <CardContent className="p-4">
-                            <p className="mt-3 text-sm text-primary-foreground selection:bg-primary-foreground selection:text-primary">Twoje zaufanie to dla mnie priorytet, dlatego poważnie traktuję kodeks etyczny psychologa a spotkania objęte są tajemnicą zawodową.</p>
-                        </CardContent>
-                    </Card>
-                    </AnimatedSection>
-
-                    <AnimatedSection>
-                    <Card className="w-full h-full max-w-sm shadow-md bg-primary text-primary-foreground">
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-                                <Sparkles
-                                    className="size-12 bg-primary text-primary-foreground"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
-
-                            <h3 className="mt-6 font-semibold text-xl text-primary-foreground selection:bg-primary-foreground selection:text-primary">Profesjonalizm i empatia</h3>
-                        </CardHeader>
-
-                        <CardContent className="p-4">
-                            <p className="mt-3 text-sm text-primary-foreground selection:bg-primary-foreground selection:text-primary">Dbam o rzetelne przygotowanie do pracy biorąc udział w szkoleniach i uczestnicząc w regularnej superwizji. </p>
-                        </CardContent>
-                    </Card>
-
-                    <Card className="w-full h-full max-w-sm shadow-md bg-primary text-primary-foreground">
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-                                <GiSpellBook
-                                    className="size-12 bg-primary text-primary-foreground"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
-
-                            <h3 className="mt-6 font-semibold text-xl text-primary-foreground selection:bg-primary-foreground selection:text-primary">Podejście oparte na nauce</h3>
-                        </CardHeader>
-
-                        <CardContent className="p-4">
-                            <p className="mt-3 text-sm text-primary-foreground selection:bg-primary-foreground selection:text-primary">Dbam o rzetelne przygotowanie do pracy biorąc udział w szkoleniach i uczestnicząc w regularnej superwizji. </p>
-                        </CardContent>
-                    </Card>
-
-                    <Card className="w-full h-full max-w-sm shadow-md bg-primary text-primary-foreground">
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-                                <LuBlend
-                                    className="size-12 bg-primary text-primary-foreground"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
-
-                            <h3 className="mt-6 font-semibold text-xl text-primary-foreground selection:bg-primary-foreground selection:text-primary">Integracja metod pracy</h3>
-                        </CardHeader>
-
-                        <CardContent className="p-4">
-                            <p className="mt-3 text-sm text-primary-foreground selection:bg-primary-foreground selection:text-primary">Wspieram w odzyskiwaniu równowagi emocjonalnej korzystając z podejść, które integrują dialog z pracą z ciałem, uważność na zasoby oraz współczesną wiedzę o funkcjonowaniu układu nerwowego. </p>
-                        </CardContent>
-                    </Card>
-
-                    <Card className="w-full h-full max-w-sm shadow-md bg-primary text-primary-foreground">
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-                                <GiBrain
-                                    className="size-12 bg-primary text-primary-foreground"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
-
-                            <h3 className="mt-6 font-semibold text-xl text-primary-foreground selection:bg-primary-foreground selection:text-primary">Diagnoza</h3>
-                        </CardHeader>
-
-                        <CardContent className="p-4">
-                            <p className="mt-3 text-sm text-primary-foreground selection:bg-primary-foreground selection:text-primary">Oferuję diagnozę psychologiczną i neuropsychologiczną oraz przygotowanie opinii psychologicznej. Opinie mogą być wykorzystywane także w dalszym procesie leczenia u innych specjalistów.  </p>
-                        </CardContent>
-                    </Card>
-
-
-
-                    </AnimatedSection>
-                    
-                </div>
-            </div>
-        </section>
-    )
+export default function Features2() {
+  return (
+    <section className="py-12 md:py-32 bg-white  text-primary-foreground">
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
+          {features.map((feature, idx) => (
+            <AnimatedSection key={idx}>
+            <Card className="flex h-full flex-col shadow-md bg-primary text-primary-foreground transition-all duration-300 hover:shadow-xl hover:scale-105">
+                <CardHeader className="flex flex-col items-center text-center pb-3">
+                    <CardDecorator>{feature.icon}</CardDecorator>
+                    <h3 className="mt-6 text-xl font-semibold">{feature.title}</h3>
+                </CardHeader>
+                
+                <CardContent className="flex-1 flex items-center justify-center text-center p-4">
+                    <p className="text-sm text-primary-foreground">{feature.text}</p>
+                </CardContent>
+            </Card>
+            </AnimatedSection>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
 }
 
 const CardDecorator = ({ children }: { children: ReactNode }) => (
-    <div className="relative mx-auto size-36 duration-200 [--color-border:color-mix(in_oklab,var(--color-zinc-950)10%,transparent)] group-hover:[--color-border:color-mix(in_oklab,var(--color-zinc-950)20%,transparent)] dark:[--color-border:color-mix(in_oklab,var(--color-white)15%,transparent)] dark:group-hover:bg-white/5 dark:group-hover:[--color-border:color-mix(in_oklab,var(--color-white)20%,transparent)]">
-       
-        <div className="bg-background absolute inset-0 m-auto flex size-12 items-center justify-center ">{children}</div>
-    </div>
+  <div className="mx-auto mb-4 flex size-16 items-center justify-center rounded-full bg-primary-foreground/10">
+    {children}
+  </div>
 )
- 
