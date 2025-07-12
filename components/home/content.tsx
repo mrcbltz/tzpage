@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function ContentSection() {
     return (
-        <section className="bg-primary-foreground text-primary selection:bg-primary selection:text-primary-foreground p-20">
+        <section className="bg-primary-foreground text-primary selection:bg-primary selection:text-primary-foreground px-4 py-12 sm:px-6 md:px-12 md:py-20">
             <div className=" mx-auto flex h-full max-w-6xl items-center px-6">
             <div className="flex flex-col md:flex-row w-full gap-8 items-center justify-center sm:gap-x-14">
 
