@@ -3,6 +3,7 @@ import { Poppins } from 'next/font/google';
 
 import "./globals.css";
 import { HeroHeader } from "@/components/home/header";
+// import { HeroHeader } from "@/components/home/header";
 
 
 const poppins = Poppins({

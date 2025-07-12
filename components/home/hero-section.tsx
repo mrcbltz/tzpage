@@ -8,6 +8,7 @@ import React from 'react'
 export default function Secondver() {
   return (
     // <section className="relative w-full h-full min-h-screen bg-gradient-to-br from-green-50 via-white to-green-100 overflow-hidden">
+    <main className="overflow-hidden">
     <section className="relative w-full h-full min-h-screen bg-green-50 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-green-50 via-white to-transparent pointer-events-none z-0" />
         <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col items-center justify-center gap-6 px-4 pt-12 sm:flex-col sm:pt-16 md:flex-row md:pt-32">
@@ -60,5 +61,6 @@ export default function Secondver() {
       </div>
       
     </section>
+    </main>
   )
 }
