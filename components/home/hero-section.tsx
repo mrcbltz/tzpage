@@ -13,7 +13,7 @@ export default function Secondver() {
       <div className="absolute inset-0 bg-gradient-to-b from-green-50 via-white to-transparent pointer-events-none z-0" />
         <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col items-center justify-center gap-6 px-4 pt-12 sm:flex-col sm:pt-16 md:flex-row md:pt-32">
           {/* Zdjęcie */}
-          <div className="w-full md:w-1/2 flex items-center justify-center">
+          <div className="w-full md:w-1/2 flex items-center justify-center sm:pt-10">
             <Image
               src="./bng.png"
               alt="profile pic"

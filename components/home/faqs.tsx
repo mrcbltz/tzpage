@@ -46,7 +46,7 @@ export default function FAQsFour() {
 
     return (
         <section className="py-6 md:py-5 bg-primary-foreground text-primary selection:bg-primary selection:text-primary-foreground ">
-            <div className="mx-auto max-w-5xl my-12 py-24 px-4 md:px-6">
+            <div className="mx-auto max-w-5xl my-12 py-12 px-4 md:px-6">
                 <div className="mx-auto max-w-xl text-center">
                     <h2 className="text-balance text-3xl font-bold md:text-4xl lg:text-5xl">Często zadawane pytania</h2>
                     <p className="mt-4 text-balance">Odkryj  odpowiedzi na najczęstsze pytania dotyczące mojej pracy.</p>
