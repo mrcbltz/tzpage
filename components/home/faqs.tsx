@@ -7,28 +7,40 @@ export default function FAQsFour() {
     const faqItems = [
         {
             id: 'item-1',
-            question: 'Jak wygląda pierwsze spotkanie?',
-            answer: 'Pierwsze spotkanie to konsultacja, podczas której poznajemy się, omawiamy Twoje potrzeby i ustalamy możliwe formy dalszej pomocy.',
+            question: 'Jak często odbywają się spotkania?',
+            answer: 'Częstotliwość spotkań ustalana jest indywidualnie - zazwyczaj raz w tygodniu lub co dwa tygodnie.',
         },
         {
             id: 'item-2',
-            question: 'Czy muszę mieć skierowanie?',
-            answer: 'Nie, na wizytę nie jest wymagane skierowanie. Możesz umówić się bezpośrednio.',
+            question: 'Jak długo trwa jedno spotkanie?',
+            answer: 'Sesja trwa zwykle do 60 minut, jednak w niektórych przypadkach ten czas może być nieco dłuższy np. 75 minut. W przypadku diagnozy psychologicznej lub neuropsychologicznej spotkania mogą być dłuższe lub dzielone na kilka części - informuję o tym z wyprzedzeniem.',
         },
         {
             id: 'item-3',
-            question: 'Jak często odbywają się spotkania?',
-            answer: 'Częstotliwość spotkań ustalana jest indywidualnie – zazwyczaj raz w tygodniu.',
+            question: 'Kto może się zgłosić?',
+            answer: 'TPracuję z młodzieżą powyżej 15 roku życia i osobami dorosłymi.',
         },
         {
             id: 'item-4',
-            question: 'Jak długo trwa jedna sesja?',
-            answer: "Sesja trwa zwykle 50 minut, ale w przypadku niektórych form pracy czas ten może być nieco inny (np. sesje par – 75 min).",
+            question: 'Czy możliwe są konsultacje jednorazowe?',
+            answer: "Tak, istnieje taka możliwość - wszystko zależy od Twoich potrzeb. Czasem wystarczy jedno spotkanie, by spojrzeć na sytuację z innej perspektywy, uporządkować myśli lub uzyskać wskazówki, co dalej. Jeśli okaże się, że potrzebujesz szerszego wsparcia, wspólnie ustalimy dalsze kroki.",
         },
         {
             id: 'item-5',
-            question: 'Czy oferujesz spotkania online?',
-            answer: 'Tak, istnieje możliwość konsultacji online – przez wideo lub telefonicznie, w zależności od preferencji.',
+            question: 'Czy mogę odwołać spotkanie?',
+            answer: 'Tak, możesz odwołać spotkanie bez żadnych konsekwencji do 24 godzin przed jego planowanym terminem. Jeśli odwołanie nastąpi później niż 24 godziny przed spotkaniem, obowiązuje opłata w wysokości 50% stawki. Działa to również w drugą stronę - jeśli z mojej strony dojdzie do odwołania wizyty z krótszym niż 24-godzinny wyprzedzeniem, koszt kolejnego spotkania zostanie pomniejszony o 50%.',
+        },
+    
+        {
+            id: 'item-6',
+            question: 'Gdzie odbywają się spotkania?',
+            answer: 'Spotkania stacjonarne odbywają się w Łodzi przy ul. Widnej 2 (Łódź Górna) lub online na platformie MS Teams.',
+        },
+    
+        {
+            id: 'item-7',
+            question: 'Czy możliwa jest diagnoza w kierunku ADHD, depresji, lęku, traumy?',
+            answer: 'Tak, w mojej pracy prowadzę diagnozę psychologiczną w kierunku takich trudności jak ADHD, zaburzenia lękowe, depresja czy doświadczenia traumatyczne (w tym PTSD i CPTSD). Opieram się na rzetelnych narzędziach diagnostycznych, wywiadzie psychologicznym oraz analizie funkcjonowania emocjonalnego i poznawczego. Wykonuję także diagnozy neuropsychologiczne w przebiegu chorób neurologicznych, po urazach oraz u osób starszych. W przypadku spotkań w kierunku diagnozy mogą one trwać dłużej lub wymagać więcej niż jednego spotkania. Po zakończeniu diagnozy w ciągu kilku otrzymasz ją w formie pisemnej, którą można przedstawić lekarzowi psychiatrii lub innej osobie prowadzącej.',
         },
     ]
 

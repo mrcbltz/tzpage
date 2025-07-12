@@ -4,8 +4,10 @@ import Image from 'next/image'
 
 export default function LogoCloud() {
     return (
-        <section className="bg-[linear-gradient(to_top,white_20%,white_80%,#f0fdf4_100%)] overflow-hidden py-16 relative w-full">
-            <div className="group m-auto max-w-7xl px-6 sm:pt-10 ">
+        // <section className="bg-[linear-gradient(to_top,white_20%,white_80%,#F9FFFF_100%)] overflow-hidden py-16 relative w-full">
+            <section className="relative bg-gradient-to-b from-green-50 via-white to-white pt-20 pb-5">
+               {/* <section className="bg-white overflow-hidden py-16 relative w-full">   */}
+            <div className="group m-auto max-w-7xl px-6 ">
                 <div className="flex flex-col items-center justify-center md:flex-row">
                     <div className=" text-primary-foreground md:max-w-44 md:border-r md:border-primary-foreground/35 md:pr-6 mb-0 sm:mb-20 md:mb-0">
                         <p className="text-end text-primary-foreground font-bold ">EDUKACJA</p>
@@ -19,8 +21,8 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/apa.png"
-                                    alt="apa"
+                                    src="/logos/apa.png" 
+                                    alt="Nvidia Logo"
                                     height="20"
                                     width="349"
                                 />
@@ -29,7 +31,7 @@ export default function LogoCloud() {
                             <div className="flex w-fit mx-auto">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/va.png"
+                                    src="/logos/va.png"
                                     alt="va logo"
                                     height="24"
                                     width="110"
@@ -38,7 +40,7 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/bsp.png"
+                                    src="/logos/bsp.png"
                                     alt="bsp logo"
                                     height="20"
                                     width="142"
@@ -47,7 +49,7 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/tsr.png"
+                                    src="/logos/tsr.png"
                                     alt="Tsr Logo"
                                     height="20"
                                     width="37"
@@ -56,7 +58,7 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/ul.png"
+                                    src="/logos/ul.png"
                                     alt="ul log"
                                     height="20"
                                     width="79"
@@ -65,8 +67,8 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="./logos/wsb.png" 
-                                    alt="wsb"
+                                    src="/logos/wsb.png" 
+                                    alt="Laravel Logo"
                                     height="20"
                                     width="46"
                                 />
