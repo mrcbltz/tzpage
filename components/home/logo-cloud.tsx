@@ -21,7 +21,7 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="/logos/apa.png" 
+                                    src="./logos/apa.png" 
                                     alt="Nvidia Logo"
                                     height="20"
                                     width="349"
@@ -31,7 +31,7 @@ export default function LogoCloud() {
                             <div className="flex w-fit mx-auto">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="/logos/va.png"
+                                    src="./logos/va.png"
                                     alt="va logo"
                                     height="24"
                                     width="110"
@@ -40,7 +40,7 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="/logos/bsp.png"
+                                    src="./logos/bsp.png"
                                     alt="bsp logo"
                                     height="20"
                                     width="142"
@@ -49,7 +49,7 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="/logos/tsr.png"
+                                    src="./logos/tsr.png"
                                     alt="Tsr Logo"
                                     height="20"
                                     width="37"
@@ -58,7 +58,7 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="/logos/ul.png"
+                                    src="./logos/ul.png"
                                     alt="ul log"
                                     height="20"
                                     width="79"
@@ -67,7 +67,7 @@ export default function LogoCloud() {
                             <div className="flex">
                                 <Image
                                     className="mx-auto h-6 dark:invert"
-                                    src="/logos/wsb.png" 
+                                    src="./logos/wsb.png" 
                                     alt="Laravel Logo"
                                     height="20"
                                     width="46"

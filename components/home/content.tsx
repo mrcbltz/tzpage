@@ -17,7 +17,7 @@ export default function ContentSection() {
                 </div> */}
                 <div className="w-full md:w-1/2 text-center md:text-left">
                     <Image
-                         src='/brain.jpg'
+                         src='./brain.jpg'
                          alt='brain'
                          width={600}
                          height={600}

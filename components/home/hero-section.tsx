@@ -15,7 +15,7 @@ export default function Secondver() {
           {/* Zdjęcie */}
           <div className="w-full md:w-1/2 flex items-center justify-center">
             <Image
-              src="/bng.png"
+              src="./bng.png"
               alt="profile pic"
               width={600}
               height={600}
@@ -27,7 +27,7 @@ export default function Secondver() {
         {/* Podpis i przyciski */}
           <div className="w-full md:w-1/2 flex flex-col items-center justify-center text-center -mt-6 md:-mt-12">
             <Image
-              src="/sign.png"
+              src="./sign.png"
               alt="Podpis"
               width={600}
               height={200}
