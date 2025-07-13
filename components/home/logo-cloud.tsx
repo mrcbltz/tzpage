@@ -7,7 +7,7 @@ export default function LogoCloud() {
         // <section className="bg-[linear-gradient(to_top,white_20%,white_80%,#F9FFFF_100%)] overflow-hidden py-16 relative w-full">
             <section className="relative bg-gradient-to-b from-green-50 via-white to-white pt-20 pb-5">
                {/* <section className="bg-white overflow-hidden py-16 relative w-full">   */}
-            <div className="group m-auto max-w-7xl px-6 ">
+            <div className="group m-auto max-w-7xl w-full overflow-hidden px-6 ">
                 <div className="flex flex-col items-center justify-center md:flex-row">
                     <div className=" text-primary-foreground md:max-w-44 md:border-r md:border-primary-foreground/35 md:pr-6 mb-0 sm:mb-20 md:mb-0">
                         <p className="text-end text-primary-foreground font-bold ">EDUKACJA</p>
