@@ -15,7 +15,7 @@ export default function Secondver() {
           {/* Zdjęcie */}
           <div className="w-full md:w-1/2 flex items-center justify-center sm:pt-10">
             <Image
-              src="./bng.png"
+              src="./profile.png"
               alt="profile pic"
               width={600}
               height={600}
